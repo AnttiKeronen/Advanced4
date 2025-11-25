@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Todo</title>
+</head>
+<body>
+  <h1>Todo</h1>
+  <h2>Lisää todo</h2>
+  <form id="todoForm">
+    <input id="userInput" type="text" placeholder="User name" required />
+    <input id="todoInput" type="text" placeholder="Todo" required />
+    <button id="submit-data" type="submit">Lisää tekemine</button>
+  </form>
+  <h2>Eti käyttäjä</h2>
+  <form id="searchForm">
+    <input id="searchInput" type="text" placeholder="User name" required />
+    <button id="search" type="submit">Eti</button>
+  </form>
+  <button id="deleteUser" style="display:none;">Poista</button>
+  <h3>Tekemiset</h3>
+  <ul id="todoList"></ul>
+  <p id="message"></p>
+  <script src="script.js"></script>
+</body>
+</html>
